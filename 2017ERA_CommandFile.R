@@ -1,9 +1,12 @@
 #######################
+## LOAD HRJ FUNCTION ##
+#######################
+source("CreateHRJFunctions.R")
+#######################
 ## READ IN .HRJ DATA ##
 #######################
-##########
-#2017 ERA#
-##########
+#2017 ERA
+#Set user directory
 userDir=choose.dir()
 #Read in HRJ files in a directory
 by=readHRJdir(userDir, nFisheries=79, straysinescap=TRUE, Age6="ignore")

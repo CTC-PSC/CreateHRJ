@@ -1,4 +1,8 @@
 #######################
+## LOAD HRJ FUNCTION ##
+#######################
+source("CreateHRJFunctions.R")
+#######################
 ## READ IN .HRJ DATA ##
 #######################
 #2014 ERA - 2012/2013 ISBM 
